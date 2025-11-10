@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import 'index.css'
 
-function Square({ value }) {
+function Square({ value, onSquareClick }) {
   return (
     <button className="square" onClick={onSquareClick}>
       {value}
